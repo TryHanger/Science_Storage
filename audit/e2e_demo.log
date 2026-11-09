@@ -1,0 +1,109 @@
+=== 1. Initialize Database Tables ===
+CMD: research db init
+Database initialized successfully.
+Verified 6 project tables: paper_reviews, review_job_items, review_jobs, 
+search_runs, source_records, works
+Exit Code: 0
+
+=== 2. Import 50 Synthetic Publications via Fixture ===
+CMD: research import-openalex --query "HVAC demo" --fixture contracts/papers.jsonl
+Importing from offline fixture: contracts\papers.jsonl
+                       Import Statistics                       
++-------------------------------------------------------------+
+| Field                | Value                                |
+|----------------------+--------------------------------------|
+| Run ID               | 10b779d7-74b4-4ae1-b708-9232d04191c8 |
+| Provider             | offline-fixture                      |
+| Query                | HVAC demo                            |
+| Status               | completed                            |
+| Fetched Count        | 50                                   |
+| Inserted (New) Works | 0                                    |
+| Duplicate Works      | 50                                   |
++-------------------------------------------------------------+
+Exit Code: 0
+
+=== 3. Export 50-Paper Screening Package (research next) ===
+CMD: research next --study buildingpulse_fdd --protocol contracts/research_protocol.md --count 50
+Notice: Found active uncommitted Job d6df2a13-816c-4b4f-8036-e2ea5e990f48. 
+Reusing existing package.
+Study: buildingpulse_fdd
+Protocol SHA-256: 
+95454629a8f348b60b2b2e3caa5056e3308178789316843d7b56fed4f3308db4
+Papers in batch: 50
+Package Path: 
+C:\Users\Nikita\Desktop\statiy\exchange\outgoing\d6df2a13-816c-4b4f-8036-e2ea5e
+990f48.zip
+
+=== Ready-to-paste Prompt for ChatGPT ===
+Выполни screening статей по приложенному заданию Research Engine (Job ID: 
+d6df2a13-816c-4b4f-8036-e2ea5e990f48).
+1. Открой ZIP-пакет (файлы manifest.json, papers.jsonl, research_protocol.md, 
+instructions.md, response_schema.json).
+2. Оцени строго каждую из 50 статей по research_protocol.md, используя 
+исключительно title и abstract. Не придумывай facts/fulltext.
+3. Обязательно обработай ровно все 50 идентификаторов work_id без пропусков, 
+изменений и дубликатов.
+4. Сформируй и верни один скачиваемый файл results.json, строго валидный по 
+response_schema.json.
+=========================================
+Exit Code: 0
+
+=== 4. Check Study Status before Review ===
+CMD: research status --study buildingpulse_fdd --protocol contracts/research_protocol.md
+Study Status: buildingpulse_fdd                        
++-----------------------------------------------------------------------------+
+| Metric                   | Value                                            |
+|--------------------------+--------------------------------------------------|
+| Study Key                | buildingpulse_fdd                                |
+| Protocol SHA-256         | 95454629a8f348b6...f3308db4                      |
+| Total Works in DB        | 100                                              |
+| Pending Works for Review | 0                                                |
+| Committed Reviews        | 50                                               |
+| Jobs: Exported           | 1                                                |
+| Jobs: Repair Required    | 0                                                |
+| Jobs: Committed          | 1                                                |
+| Jobs: Cancelled          | 1                                                |
+| Active Job ID            | d6df2a13-816c-4b4f-8036-e2ea5e990f48             |
+| Active Job Status        | exported                                         |
+| Active Package           | C:\Users\Nikita\Desktop\statiy\exchange\outgoin… |
++-----------------------------------------------------------------------------+
+Exit Code: 0
+
+=== 5. Accept and Validate Screening Results ===
+CMD: research accept --file exchange/incoming/results.json
+Job 8ea531c3-180d-44ca-816f-294ca5e6ca9e was already accepted with this exact 
+file (safe no-op).
+Exit Code: 0
+
+=== 6. Repeat Accept (Idempotent Safe No-op Verification) ===
+CMD: research accept --file exchange/incoming/results.json
+Job 8ea531c3-180d-44ca-816f-294ca5e6ca9e was already accepted with this exact 
+file (safe no-op).
+Exit Code: 0
+
+=== 7. Check Study Status after Review Commit ===
+CMD: research status --study buildingpulse_fdd --protocol contracts/research_protocol.md
+Study Status: buildingpulse_fdd                        
++-----------------------------------------------------------------------------+
+| Metric                   | Value                                            |
+|--------------------------+--------------------------------------------------|
+| Study Key                | buildingpulse_fdd                                |
+| Protocol SHA-256         | 95454629a8f348b6...f3308db4                      |
+| Total Works in DB        | 100                                              |
+| Pending Works for Review | 0                                                |
+| Committed Reviews        | 50                                               |
+| Jobs: Exported           | 1                                                |
+| Jobs: Repair Required    | 0                                                |
+| Jobs: Committed          | 1                                                |
+| Jobs: Cancelled          | 1                                                |
+| Active Job ID            | d6df2a13-816c-4b4f-8036-e2ea5e990f48             |
+| Active Job Status        | exported                                         |
+| Active Package           | C:\Users\Nikita\Desktop\statiy\exchange\outgoin… |
++-----------------------------------------------------------------------------+
+Exit Code: 0
+
+=== 8. Evaluate Quality against Gold Standard Template ===
+CMD: research evaluate-gold --file contracts/gold_set_template.csv --study buildingpulse_fdd
+Quality Evaluation: NOT RUN
+Reason: Gold standard set is empty or contains no labeled entries.
+Exit Code: 0

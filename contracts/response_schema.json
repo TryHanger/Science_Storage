@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research Engine screening response v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "job_id", "protocol_sha256", "results"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "job_id": {"type": "string", "format": "uuid"},
+    "protocol_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "results": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["work_id", "decision", "evidence_level", "needs_fulltext", "reason"],
+        "properties": {
+          "work_id": {"type": "string", "format": "uuid"},
+          "decision": {"enum": ["include", "exclude", "uncertain"]},
+          "evidence_level": {"enum": ["title_only", "abstract_only"]},
+          "needs_fulltext": {"type": "boolean"},
+          "reason": {"type": "string", "minLength": 12, "maxLength": 800}
+        }
+      }
+    },
+    "additional_references": {
+      "type": "array", "maxItems": 30,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["title", "why_relevant"],
+        "properties": {
+          "title": {"type": "string", "minLength": 5},
+          "doi": {"type": ["string", "null"]},
+          "url": {"type": ["string", "null"]},
+          "why_relevant": {"type": "string", "minLength": 8}
+        },
+        "anyOf": [{"required": ["doi"]}, {"required": ["url"]}]
+      }
+    }
+  }
+}

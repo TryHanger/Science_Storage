@@ -1,0 +1,32 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.6, pytest-8.3.4, pluggy-1.6.0 -- C:\Users\Nikita\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Nikita\Desktop\statiy
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.6.2.post1, Faker-36.1.1, asyncio-1.1.0, cov-6.0.0
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 20 items
+
+tests/test_db.py::test_init_db_creates_exactly_six_tables_and_is_idempotent PASSED [  5%]
+tests/test_e2e.py::test_full_e2e_cycle_with_synthetic_fixture PASSED     [ 10%]
+tests/test_gold.py::test_gold_empty_template_yields_not_run PASSED       [ 15%]
+tests/test_gold.py::test_gold_evaluation_with_labels PASSED              [ 20%]
+tests/test_normalize.py::test_normalize_doi PASSED                       [ 25%]
+tests/test_normalize.py::test_normalize_openalex_id PASSED               [ 30%]
+tests/test_normalize.py::test_reconstruct_abstract PASSED                [ 35%]
+tests/test_normalize.py::test_extract_first_author PASSED                [ 40%]
+tests/test_normalize.py::test_compute_sha256 PASSED                      [ 45%]
+tests/test_openalex.py::test_import_fixture_without_abstract_and_provenance PASSED [ 50%]
+tests/test_openalex.py::test_import_deduplication_preserves_provenance PASSED [ 55%]
+tests/test_queue.py::test_next_creates_valid_zip_with_50_distinct_ids_and_correct_hash PASSED [ 60%]
+tests/test_queue.py::test_next_second_time_reuses_existing_package PASSED [ 65%]
+tests/test_queue.py::test_next_subsequent_batch_after_accept PASSED      [ 70%]
+tests/test_queue.py::test_cancel_job_releases_reserved_works PASSED      [ 75%]
+tests/test_validator.py::test_valid_response_yields_50_reviews_and_committed_status PASSED [ 80%]
+tests/test_validator.py::test_repeat_identical_response_is_idempotent_no_op PASSED [ 85%]
+tests/test_validator.py::test_invalid_job_id_and_protocol_hash_rejected PASSED [ 90%]
+tests/test_validator.py::test_missing_extra_duplicate_ids_rejected PASSED [ 95%]
+tests/test_validator.py::test_malformed_json_and_extra_fields_zero_partial_writes PASSED [100%]
+
+============================= 20 passed in 11.41s =============================

@@ -1,0 +1,402 @@
+[
+  {
+    "title": "HVAC Next Batch Publication 1",
+    "doi": "10.2000/batch2.1",
+    "openalex_id": "W200001",
+    "abstract": "Experimental validation of fault diagnosis method 1",
+    "publication_year": 2024,
+    "first_author": "Researcher 1"
+  },
+  {
+    "title": "HVAC Next Batch Publication 2",
+    "doi": "10.2000/batch2.2",
+    "openalex_id": "W200002",
+    "abstract": "Experimental validation of fault diagnosis method 2",
+    "publication_year": 2024,
+    "first_author": "Researcher 2"
+  },
+  {
+    "title": "HVAC Next Batch Publication 3",
+    "doi": "10.2000/batch2.3",
+    "openalex_id": "W200003",
+    "abstract": "Experimental validation of fault diagnosis method 3",
+    "publication_year": 2024,
+    "first_author": "Researcher 3"
+  },
+  {
+    "title": "HVAC Next Batch Publication 4",
+    "doi": "10.2000/batch2.4",
+    "openalex_id": "W200004",
+    "abstract": "Experimental validation of fault diagnosis method 4",
+    "publication_year": 2024,
+    "first_author": "Researcher 4"
+  },
+  {
+    "title": "HVAC Next Batch Publication 5",
+    "doi": "10.2000/batch2.5",
+    "openalex_id": "W200005",
+    "abstract": "Experimental validation of fault diagnosis method 5",
+    "publication_year": 2024,
+    "first_author": "Researcher 5"
+  },
+  {
+    "title": "HVAC Next Batch Publication 6",
+    "doi": "10.2000/batch2.6",
+    "openalex_id": "W200006",
+    "abstract": "Experimental validation of fault diagnosis method 6",
+    "publication_year": 2024,
+    "first_author": "Researcher 6"
+  },
+  {
+    "title": "HVAC Next Batch Publication 7",
+    "doi": "10.2000/batch2.7",
+    "openalex_id": "W200007",
+    "abstract": "Experimental validation of fault diagnosis method 7",
+    "publication_year": 2024,
+    "first_author": "Researcher 7"
+  },
+  {
+    "title": "HVAC Next Batch Publication 8",
+    "doi": "10.2000/batch2.8",
+    "openalex_id": "W200008",
+    "abstract": "Experimental validation of fault diagnosis method 8",
+    "publication_year": 2024,
+    "first_author": "Researcher 8"
+  },
+  {
+    "title": "HVAC Next Batch Publication 9",
+    "doi": "10.2000/batch2.9",
+    "openalex_id": "W200009",
+    "abstract": "Experimental validation of fault diagnosis method 9",
+    "publication_year": 2024,
+    "first_author": "Researcher 9"
+  },
+  {
+    "title": "HVAC Next Batch Publication 10",
+    "doi": "10.2000/batch2.10",
+    "openalex_id": "W2000010",
+    "abstract": "Experimental validation of fault diagnosis method 10",
+    "publication_year": 2024,
+    "first_author": "Researcher 10"
+  },
+  {
+    "title": "HVAC Next Batch Publication 11",
+    "doi": "10.2000/batch2.11",
+    "openalex_id": "W2000011",
+    "abstract": "Experimental validation of fault diagnosis method 11",
+    "publication_year": 2024,
+    "first_author": "Researcher 11"
+  },
+  {
+    "title": "HVAC Next Batch Publication 12",
+    "doi": "10.2000/batch2.12",
+    "openalex_id": "W2000012",
+    "abstract": "Experimental validation of fault diagnosis method 12",
+    "publication_year": 2024,
+    "first_author": "Researcher 12"
+  },
+  {
+    "title": "HVAC Next Batch Publication 13",
+    "doi": "10.2000/batch2.13",
+    "openalex_id": "W2000013",
+    "abstract": "Experimental validation of fault diagnosis method 13",
+    "publication_year": 2024,
+    "first_author": "Researcher 13"
+  },
+  {
+    "title": "HVAC Next Batch Publication 14",
+    "doi": "10.2000/batch2.14",
+    "openalex_id": "W2000014",
+    "abstract": "Experimental validation of fault diagnosis method 14",
+    "publication_year": 2024,
+    "first_author": "Researcher 14"
+  },
+  {
+    "title": "HVAC Next Batch Publication 15",
+    "doi": "10.2000/batch2.15",
+    "openalex_id": "W2000015",
+    "abstract": "Experimental validation of fault diagnosis method 15",
+    "publication_year": 2024,
+    "first_author": "Researcher 15"
+  },
+  {
+    "title": "HVAC Next Batch Publication 16",
+    "doi": "10.2000/batch2.16",
+    "openalex_id": "W2000016",
+    "abstract": "Experimental validation of fault diagnosis method 16",
+    "publication_year": 2024,
+    "first_author": "Researcher 16"
+  },
+  {
+    "title": "HVAC Next Batch Publication 17",
+    "doi": "10.2000/batch2.17",
+    "openalex_id": "W2000017",
+    "abstract": "Experimental validation of fault diagnosis method 17",
+    "publication_year": 2024,
+    "first_author": "Researcher 17"
+  },
+  {
+    "title": "HVAC Next Batch Publication 18",
+    "doi": "10.2000/batch2.18",
+    "openalex_id": "W2000018",
+    "abstract": "Experimental validation of fault diagnosis method 18",
+    "publication_year": 2024,
+    "first_author": "Researcher 18"
+  },
+  {
+    "title": "HVAC Next Batch Publication 19",
+    "doi": "10.2000/batch2.19",
+    "openalex_id": "W2000019",
+    "abstract": "Experimental validation of fault diagnosis method 19",
+    "publication_year": 2024,
+    "first_author": "Researcher 19"
+  },
+  {
+    "title": "HVAC Next Batch Publication 20",
+    "doi": "10.2000/batch2.20",
+    "openalex_id": "W2000020",
+    "abstract": "Experimental validation of fault diagnosis method 20",
+    "publication_year": 2024,
+    "first_author": "Researcher 20"
+  },
+  {
+    "title": "HVAC Next Batch Publication 21",
+    "doi": "10.2000/batch2.21",
+    "openalex_id": "W2000021",
+    "abstract": "Experimental validation of fault diagnosis method 21",
+    "publication_year": 2024,
+    "first_author": "Researcher 21"
+  },
+  {
+    "title": "HVAC Next Batch Publication 22",
+    "doi": "10.2000/batch2.22",
+    "openalex_id": "W2000022",
+    "abstract": "Experimental validation of fault diagnosis method 22",
+    "publication_year": 2024,
+    "first_author": "Researcher 22"
+  },
+  {
+    "title": "HVAC Next Batch Publication 23",
+    "doi": "10.2000/batch2.23",
+    "openalex_id": "W2000023",
+    "abstract": "Experimental validation of fault diagnosis method 23",
+    "publication_year": 2024,
+    "first_author": "Researcher 23"
+  },
+  {
+    "title": "HVAC Next Batch Publication 24",
+    "doi": "10.2000/batch2.24",
+    "openalex_id": "W2000024",
+    "abstract": "Experimental validation of fault diagnosis method 24",
+    "publication_year": 2024,
+    "first_author": "Researcher 24"
+  },
+  {
+    "title": "HVAC Next Batch Publication 25",
+    "doi": "10.2000/batch2.25",
+    "openalex_id": "W2000025",
+    "abstract": "Experimental validation of fault diagnosis method 25",
+    "publication_year": 2024,
+    "first_author": "Researcher 25"
+  },
+  {
+    "title": "HVAC Next Batch Publication 26",
+    "doi": "10.2000/batch2.26",
+    "openalex_id": "W2000026",
+    "abstract": "Experimental validation of fault diagnosis method 26",
+    "publication_year": 2024,
+    "first_author": "Researcher 26"
+  },
+  {
+    "title": "HVAC Next Batch Publication 27",
+    "doi": "10.2000/batch2.27",
+    "openalex_id": "W2000027",
+    "abstract": "Experimental validation of fault diagnosis method 27",
+    "publication_year": 2024,
+    "first_author": "Researcher 27"
+  },
+  {
+    "title": "HVAC Next Batch Publication 28",
+    "doi": "10.2000/batch2.28",
+    "openalex_id": "W2000028",
+    "abstract": "Experimental validation of fault diagnosis method 28",
+    "publication_year": 2024,
+    "first_author": "Researcher 28"
+  },
+  {
+    "title": "HVAC Next Batch Publication 29",
+    "doi": "10.2000/batch2.29",
+    "openalex_id": "W2000029",
+    "abstract": "Experimental validation of fault diagnosis method 29",
+    "publication_year": 2024,
+    "first_author": "Researcher 29"
+  },
+  {
+    "title": "HVAC Next Batch Publication 30",
+    "doi": "10.2000/batch2.30",
+    "openalex_id": "W2000030",
+    "abstract": "Experimental validation of fault diagnosis method 30",
+    "publication_year": 2024,
+    "first_author": "Researcher 30"
+  },
+  {
+    "title": "HVAC Next Batch Publication 31",
+    "doi": "10.2000/batch2.31",
+    "openalex_id": "W2000031",
+    "abstract": "Experimental validation of fault diagnosis method 31",
+    "publication_year": 2024,
+    "first_author": "Researcher 31"
+  },
+  {
+    "title": "HVAC Next Batch Publication 32",
+    "doi": "10.2000/batch2.32",
+    "openalex_id": "W2000032",
+    "abstract": "Experimental validation of fault diagnosis method 32",
+    "publication_year": 2024,
+    "first_author": "Researcher 32"
+  },
+  {
+    "title": "HVAC Next Batch Publication 33",
+    "doi": "10.2000/batch2.33",
+    "openalex_id": "W2000033",
+    "abstract": "Experimental validation of fault diagnosis method 33",
+    "publication_year": 2024,
+    "first_author": "Researcher 33"
+  },
+  {
+    "title": "HVAC Next Batch Publication 34",
+    "doi": "10.2000/batch2.34",
+    "openalex_id": "W2000034",
+    "abstract": "Experimental validation of fault diagnosis method 34",
+    "publication_year": 2024,
+    "first_author": "Researcher 34"
+  },
+  {
+    "title": "HVAC Next Batch Publication 35",
+    "doi": "10.2000/batch2.35",
+    "openalex_id": "W2000035",
+    "abstract": "Experimental validation of fault diagnosis method 35",
+    "publication_year": 2024,
+    "first_author": "Researcher 35"
+  },
+  {
+    "title": "HVAC Next Batch Publication 36",
+    "doi": "10.2000/batch2.36",
+    "openalex_id": "W2000036",
+    "abstract": "Experimental validation of fault diagnosis method 36",
+    "publication_year": 2024,
+    "first_author": "Researcher 36"
+  },
+  {
+    "title": "HVAC Next Batch Publication 37",
+    "doi": "10.2000/batch2.37",
+    "openalex_id": "W2000037",
+    "abstract": "Experimental validation of fault diagnosis method 37",
+    "publication_year": 2024,
+    "first_author": "Researcher 37"
+  },
+  {
+    "title": "HVAC Next Batch Publication 38",
+    "doi": "10.2000/batch2.38",
+    "openalex_id": "W2000038",
+    "abstract": "Experimental validation of fault diagnosis method 38",
+    "publication_year": 2024,
+    "first_author": "Researcher 38"
+  },
+  {
+    "title": "HVAC Next Batch Publication 39",
+    "doi": "10.2000/batch2.39",
+    "openalex_id": "W2000039",
+    "abstract": "Experimental validation of fault diagnosis method 39",
+    "publication_year": 2024,
+    "first_author": "Researcher 39"
+  },
+  {
+    "title": "HVAC Next Batch Publication 40",
+    "doi": "10.2000/batch2.40",
+    "openalex_id": "W2000040",
+    "abstract": "Experimental validation of fault diagnosis method 40",
+    "publication_year": 2024,
+    "first_author": "Researcher 40"
+  },
+  {
+    "title": "HVAC Next Batch Publication 41",
+    "doi": "10.2000/batch2.41",
+    "openalex_id": "W2000041",
+    "abstract": "Experimental validation of fault diagnosis method 41",
+    "publication_year": 2024,
+    "first_author": "Researcher 41"
+  },
+  {
+    "title": "HVAC Next Batch Publication 42",
+    "doi": "10.2000/batch2.42",
+    "openalex_id": "W2000042",
+    "abstract": "Experimental validation of fault diagnosis method 42",
+    "publication_year": 2024,
+    "first_author": "Researcher 42"
+  },
+  {
+    "title": "HVAC Next Batch Publication 43",
+    "doi": "10.2000/batch2.43",
+    "openalex_id": "W2000043",
+    "abstract": "Experimental validation of fault diagnosis method 43",
+    "publication_year": 2024,
+    "first_author": "Researcher 43"
+  },
+  {
+    "title": "HVAC Next Batch Publication 44",
+    "doi": "10.2000/batch2.44",
+    "openalex_id": "W2000044",
+    "abstract": "Experimental validation of fault diagnosis method 44",
+    "publication_year": 2024,
+    "first_author": "Researcher 44"
+  },
+  {
+    "title": "HVAC Next Batch Publication 45",
+    "doi": "10.2000/batch2.45",
+    "openalex_id": "W2000045",
+    "abstract": "Experimental validation of fault diagnosis method 45",
+    "publication_year": 2024,
+    "first_author": "Researcher 45"
+  },
+  {
+    "title": "HVAC Next Batch Publication 46",
+    "doi": "10.2000/batch2.46",
+    "openalex_id": "W2000046",
+    "abstract": "Experimental validation of fault diagnosis method 46",
+    "publication_year": 2024,
+    "first_author": "Researcher 46"
+  },
+  {
+    "title": "HVAC Next Batch Publication 47",
+    "doi": "10.2000/batch2.47",
+    "openalex_id": "W2000047",
+    "abstract": "Experimental validation of fault diagnosis method 47",
+    "publication_year": 2024,
+    "first_author": "Researcher 47"
+  },
+  {
+    "title": "HVAC Next Batch Publication 48",
+    "doi": "10.2000/batch2.48",
+    "openalex_id": "W2000048",
+    "abstract": "Experimental validation of fault diagnosis method 48",
+    "publication_year": 2024,
+    "first_author": "Researcher 48"
+  },
+  {
+    "title": "HVAC Next Batch Publication 49",
+    "doi": "10.2000/batch2.49",
+    "openalex_id": "W2000049",
+    "abstract": "Experimental validation of fault diagnosis method 49",
+    "publication_year": 2024,
+    "first_author": "Researcher 49"
+  },
+  {
+    "title": "HVAC Next Batch Publication 50",
+    "doi": "10.2000/batch2.50",
+    "openalex_id": "W2000050",
+    "abstract": "Experimental validation of fault diagnosis method 50",
+    "publication_year": 2024,
+    "first_author": "Researcher 50"
+  }
+]
