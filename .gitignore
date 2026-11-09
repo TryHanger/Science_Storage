@@ -24,3 +24,4 @@ exchange/rejected/
 research_engine_agent_handoff/
 *.zip
 !contracts/EXAMPLE_JOB_SYNTHETIC.zip
+!audit/research_engine_audit_v0.1.zip
